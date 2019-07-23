@@ -1,5 +1,9 @@
 # Using SAS
 
+## Quick overview
+
+[![SAS create a dataset](http://img.youtube.com/vi/Y45yTB6KMZE/0.jpg)](http://www.youtube.com/watch?v=Y45yTB6KMZE "SAS create a dataset")
+
 ## SAS environment
 
 Doubleclick SAS to open it. After startup the interface looks as follows:
