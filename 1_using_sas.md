@@ -4,6 +4,7 @@
 
 [![SAS create a dataset](https://i.ytimg.com/vi/Y45yTB6KMZE/maxresdefault.jpg)](http://www.youtube.com/watch?v=Y45yTB6KMZE "SAS create a dataset")
 
+Click the image above to play the youtube video.
 
 ## SAS environment
 
