@@ -25,6 +25,13 @@ ERROR: A link must be established by executing the SIGNON command before you can
 ERROR: Remote submit to WRDS canceled.
 NOTE: The link to WRDS has been terminated. You must SIGNON to reestablish the link.
 ```
+### Local viewing of remote library
+
+The following code will create an entry in the libraries (left panel), where you can navigate the remote library. In other words, you can double-click on datasets on WRDS and view these.
+
+```SAS
+Libname rwork slibref=work server=wrds;
+```
 
 ## Rsubmit
 

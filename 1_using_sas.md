@@ -22,7 +22,7 @@ There are three main windows/panels in SAS:
 
 ### Explorer
 
-Use the explorer window to navigate libraries (links to folders), or the available drives (right-most icon 'UFApps'):
+Use the explorer window to navigate libraries (links to folders), or the available drives (right-most icon is 'This PC' for local installations, in this case 'UFApps' as this screenshot is taken from UF Apps which runs 'in the cloud'):
 
 ![UF Apps Explorer](images/uf_apps_sas_explorer.png "UF Apps Explorer")
 
@@ -38,7 +38,7 @@ Libraries are references to folders on the hard disk. Doubleclick 'libraries' to
 
 The default library is 'work'. It always exists and is empty on startup. Any datasets in this library are deleted after a session.
 
-The following code creates a new dataset in `work`, and consists of a single record:
+The following code creates a new dataset in library (that is a fancy name for 'folder') `work`, and consists of a single record:
 
 ```SAS
 data work.myFirst;
@@ -56,6 +56,7 @@ Doubleclick the `myFirst` dataset in the work library to inspect the contents of
 
 ![UF Apps Explorer Work Myfirst](images/uf_apps_work.myfirst.png "UF Apps Explorer Work Myfirst")
 
+Note that dataset names are case insensitive; so 'myFirst' and 'myfirst' refer to the same dataset.
 
 To navigate 'up' (back to libraries, or to a parent folder), click the 'up icon':
 
@@ -73,9 +74,9 @@ Doubleclicking on a drive, for example 'local disk C on W-...', gives the drive 
 
 ![UF Apps Explorer Disk C](images/uf_apps_explorer_disk_C.png "UF Apps Explorer Disk C")
 
-> Notice the folder location, in this case '\\\\Client\C$'. In this case the C drive looks unusual as this SAS instance is running in the cloud. When SAS is installed on your pc, the folder location would probably be something like 'C:\'.
+> Notice the folder location, '\\\\Client\C$', for local installations of SAS this would most likely be something like 'C:'. 
 
-UF Apps SAS is able to read/write from local disks. Make a subfolder on 'C:\' (or another local drive), for example 'C:\temp'. When a folder exists, SAS is able to make a library reference to it. (That is, a short name can be used to refer to that folder). For example:
+To make datasets permanent (datasets in 'work' are deleted when the session ends), make a subfolder on 'C:\' (or another local drive), for example 'C:\temp'. When a folder exists, SAS is able to make a library reference to it. (That is, a short name can be used to refer to that folder). For example:
 
 ```SAS
 libname project "C:\temp";
