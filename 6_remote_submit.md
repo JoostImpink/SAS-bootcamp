@@ -1,5 +1,10 @@
 # Remote submit (rsubmit)
 
+## Quick overview (Youtube video)
+
+[![SAS remote submit](images/SAS_remote_submit_First_Frame.png)](https://www.youtube.com/watch?v=etfcUaVD73s "SAS remote submit")
+
+Click the image above to play the video. 
 
 ## Sign on
 
