@@ -2,6 +2,14 @@
 
 SAS Studio is an alternative to use SAS, which is hosted on WRDS' servers. As a result, accessing WRDS datasets is very straightforward. The drawback is that SAS Studio requires uploads/downloads to move files between SAS Studio and your pc (UF Apps can access your local drives directly). SAS Studio is helpful to browse WRDS datasets and run 'snippets' of code to help understand the WRDS datasets. 
 
+
+## Quick overview (Youtube video)
+
+[![SAS Studio](images/SAS_Studio_WRDS_First_Frame.png)](https://www.youtube.com/watch?v=B8azIiGkyLQ "SAS Studio")
+
+Click the image above to play the video. 
+
+
 ## Access
 
 You can access SAS Studio with your WRDS account at [wrds-cloud.wharton.upenn.edu/SASStudio](https://wrds-cloud.wharton.upenn.edu/SASStudio/). Use your WRDS credentials to log in. 
