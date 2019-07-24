@@ -2,9 +2,9 @@
 
 ## Quick overview (Youtube video)
 
-[![SAS create a dataset](images/youtube_thumbnail_sas_intro.png)](http://www.youtube.com/watch?v=Y45yTB6KMZE "SAS create a dataset")
+[![SAS create a dataset](images/SAS_intro_First_Frame.png)](http://www.youtube.com/watch?v=Y45yTB6KMZE "SAS create a dataset")
 
-Click the image above to play the video.
+Click the image above to play the video. 
 
 ## SAS environment
 
