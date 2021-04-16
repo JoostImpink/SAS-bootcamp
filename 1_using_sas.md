@@ -6,9 +6,13 @@
 
 Click the image above to play the video. 
 
+## UF Apps
+
+Log in to [UF Apps](https://apps.ufl.edu) and search for SAS using the top-right search button/bar. Doubleclick SAS to open it. 
+
 ## SAS environment
 
-Doubleclick SAS to open it. After startup the interface looks as follows:
+After startup the SAS interface looks as follows:
 
 ![UF Apps SAS](images/uf_apps_sas.png "UF Apps SAS")
 
