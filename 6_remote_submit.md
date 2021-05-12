@@ -56,6 +56,10 @@ The following query creates a new dataset (named 'myFunda'). It takes `comp.fund
 There are also some boilerplate filters (that are always needed when getting data from Compustat Fundamental Annual ) `if indfmt='INDL' and datafmt='STD' and popsrc='D' and consol='C'`. This is to prevent double/wrong records.
 
 ```SAS
+/* this piece of code makes a connection of your SAS instance with WRDS remote server */
+%let wrds = wrds-cloud.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
+signon username=_prompt_;
+
 /* Let's get the MTB data for Google, notice how we compute it straight in the query */
 rsubmit;
 
