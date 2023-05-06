@@ -12,18 +12,16 @@ When you are working with the main databases (Compustat, CRSP, IBES, etc) the WR
 To find data: Click 'support' (top bar) and the 'Dataset List'. Navigate through vendors, tables. 
 
 Helpful pages (require login):
-- [List of databases](https://wrds-web.wharton.upenn.edu/wrds/tools/variable.cfm)
-- [Search form to find variables](https://wrds-web.wharton.upenn.edu/wrds/search/variableSearch.cfm)
-- [Find individual companies](https://wrds-web.wharton.upenn.edu/wrds/code_search/)
-- [List of subscriptions](https://wrds-web.wharton.upenn.edu/wrds/index.cfm)
-- [List of manuals](https://wrds-web.wharton.upenn.edu/wrds/support/Data/_001Manuals%20and%20Overviews/index.cfm)
+- [List of databases/manuals](https://wrds-www.wharton.upenn.edu/pages/support/manuals-and-overviews/)
+- [Search form to find variables](https://wrds-www.wharton.upenn.edu/search/?queryTerms=&activeTab=navVariablesSearchTab)
+- [Find individual companies](https://wrds-www.wharton.upenn.edu/attribute-search/)
+- [List of subscriptions](https://wrds-www.wharton.upenn.edu/pages/get-data/)
+
 
 
 ### Examples:
 
-[Datasets in Compustat](https://wrds-web.wharton.upenn.edu/wrds/tools/variable.cfm?library_id=7) -- each item is a dataset!
-
-[Variables in Compustat Fundamental Annual](https://wrds-web.wharton.upenn.edu/wrds/tools/variable.cfm?library_id=7&file_id=65610) -- Note: many variables have missing values
+[Variables in Compustat Fundamental Annual](https://wrds-www.wharton.upenn.edu/pages/get-data/compustat-capital-iq-standard-poors/compustat/north-america-daily/fundamentals-annual/) -- then click on 'Variable Descriptions' (second option on form)
 
 
 ### Using the web form to download data
