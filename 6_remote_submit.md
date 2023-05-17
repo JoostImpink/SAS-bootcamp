@@ -63,7 +63,7 @@ signon username=_prompt_;
 /* Let's get the MTB data for Google, notice how we compute it straight in the query */
 rsubmit;
 
-data myFunda (keep = gvkey fyear chso prcc_f );
+data myFunda (keep = gvkey fyear chso prcc_f mtb roa);
 set comp.funda;
 /* filter */
 where TIC eq "GOOGL";
