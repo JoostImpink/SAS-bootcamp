@@ -14,9 +14,17 @@ Libname rwork slibref=work server=wrds;
 
 ### proc upload, download
 
+Proc upload/download can also upload/download files (for example a macro).
+
 ```SAS
 rsubmit;
 proc upload data=work.myLocalDataset out=work.myRemoteDataset;run;
+endrsubmit;
+```
+
+```SAS
+rsubmit;
+proc download data=comp.company out=work.company;run;
 endrsubmit;
 ```
 
@@ -73,7 +81,7 @@ run;
 
 ## proc rank
 
-Useful for grouping observations into terciles, quartiles, etc.
+Useful for grouping observations into terciles, quartiles, etc. Can be used with `by`.
 
 ```SAS
 proc rank data = myComp out=myComp2 groups = 10;
@@ -104,6 +112,22 @@ proc sort data=dataIn nodupkey dupout=dataDropped; by gkvey fyear;run;
 ```
 
 nodupkey is helpful in getting unique records
+
+## proc import - Excel
+
+Use `sheet` to specify a certain worksheet. There is also a `range` option. (For example `Range    = "sheet1$A11:3000";`)
+
+```
+proc import datafile = "E:\temp\dataset.xls" out = mydata dbms = xlsx REPLACE; sheet = "from_sas"; getnames = YES; run;
+```
+
+## proc export - Excel
+
+Use `sheet` to specify a certain worksheet. Works with existing Excel files.
+
+```
+proc export data=myData outfile= "E:\temp\dataset.xls" dbms=xlsx replace; sheet="from_sas"; run;
+```
 
 ## proc sql
 
