@@ -8,6 +8,8 @@ Proc means is used to compute statistics.
 Common supported statistics:
 
 - Keyword	Description
+- N Counting
+- SUM Sum
 - MIN	Minimum
 - MEAN	Mean
 - MEDIAN	Median
