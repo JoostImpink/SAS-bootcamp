@@ -12,7 +12,7 @@ We can programmatically connect SAS with WRDS servers. In order to make such a c
 
 ```SAS
 /* this piece of code makes a connection of your SAS instance with WRDS remote server */
-%let wrds = wrds-cloud.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
+%let wrds = wrds.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
 signon username=_prompt_;
 ```
 
@@ -57,7 +57,7 @@ There are also some boilerplate filters (that are always needed when getting dat
 
 ```SAS
 /* this piece of code makes a connection of your SAS instance with WRDS remote server */
-%let wrds = wrds-cloud.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
+%let wrds = wrds.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
 signon username=_prompt_;
 
 /* Let's get the MTB data for Google, notice how we compute it straight in the query */
