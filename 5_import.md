@@ -39,6 +39,21 @@ For tab delimited files, use `delimiter='09'x`. Variables that are text, add a $
 
 ## Export 
 
+### Export to Excel
+
+To export a dataset to an Excel worksheet, you can use the following code:
+
+```sas
+proc export data=a_comp
+    outfile="E:\temp\today\a_comp.xlsx"
+    dbms=xlsx replace;
+    sheet="Sheet1";
+run;
+```
+The `replace` option allows you to overwrite an existing file. However, if the file is open in Excel, it cannot be overwritten.
+
+> You can export multiple datasets to the same Excel file, with each dataset placed in a separate worksheet. In the same Excel file, you can add additional worksheets for further data processing, such as creating formatted tables. If these worksheets use cell references, updating tables and figures becomes easier and more dynamic.
+
 ### Export to csv
 
 'Proc export' is used to export to text files. For example:
